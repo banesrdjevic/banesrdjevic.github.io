@@ -1,11 +1,12 @@
 A Taste of Culture
+
 "It only works if..."
 
 Somewhere in the wee hours of September 19, 2014
 
 "It only works if everybody walking in through the door says 'This is my program, these are my 9 weeks, I'm going to make them amazing, get out of my way!'"
 
-While I'm not goint to be as forward about all of this as Shereef put it in the video, I know that despite how awesome everyone is going to be and how awesome working together is going to be, I need to take the reins for myself and make the program what I want it to be. And what do I want it to be? I want it to be an immersive community of open-minded people looking down the same path put traveling down their own branches. That's what I want it to be, and from what I can see that's exactly what Dev Bootcamp is supposed to be.
+While I'm not going to be as forward about all of this as Shereef put it in the video, I know that despite how awesome everyone is going to be and how awesome working together is going to be, I need to take the reins for myself and make the program what I want it to be. And what do I want it to be? I want it to be an immersive community of open-minded people looking down the same path put traveling down their own branches. That's what I want it to be, and from what I can see that's exactly what Dev Bootcamp is supposed to be.
 
 I want to learn how to do, you know? I've been a contract writer for the past few years and while I've been getting by all right with that, I really want to get my hands on a trade skill that I can put to work not only in the job market but for myself as well.
 
