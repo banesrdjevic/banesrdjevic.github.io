@@ -1,1 +1,0 @@
-Julia Roberts! julia Rob---HURTS! Cynthis is dead.... you are dead! Slam Poetry. Nela smells like cheesecake, not gone bad. That's okay, leave it be. Shower if you want. Things will get better as time goes on. As far as the cheesecake goes. Delight.
