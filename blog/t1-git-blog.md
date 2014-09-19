@@ -5,7 +5,7 @@ Stardate 9/19/2014
 
 This has been an interesting week, to say the least. It was the first dip into the Phase 0 pool, but it happpened to land on the worst possible week because I was just coming back from Japan and moving to a new city, which meant me being very, very busy. But it all worked out in the end, and me writing this shows that I'm well on my way to finishing the first week of exercises and lessons all in due course.
 
-But what were all of those lessons about this past week? Most of my time was trying to figure out how to get PowerShell to work with all ofthe setup needed, but it was a lot of fun researching how to get it done right and what things I need to finagle to get others working just right. I learned a lot about how PowerShell works just by trying to figure out how to get the subl command functioning the way I want it to, and I got to send that info along to a lot of great people over in the DBC Google+ Community page. Sharing is caring after all.
+But what were all of those lessons about this past week? Most of my time was trying to figure out how to get PowerShell to work with all of the setup needed, but it was a lot of fun researching how to get it done right and what things I need to finagle to get others working just right. I learned a lot about how PowerShell works just by trying to figure out how to get the subl command functioning the way I want it to, and I got to send that info along to a lot of great people over in the DBC Google+ Community page. Sharing is caring after all.
 
 But once all of that was set-up it came time to get down to the nitty-gritty, or should I say nitty-Gitty. I don't even care if that pun gets me kicked out of the program--it was worth every bit.
 
