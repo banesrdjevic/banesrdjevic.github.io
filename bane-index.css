@@ -1,0 +1,45 @@
+html{
+	background: white;
+}
+.top{
+	position:fixed;
+}
+
+.nav_bar{
+	position:fixed;
+	margin-top: 475px;
+	margin-right:50%; 
+	margin-left:32%;
+	
+	border-radius: 20px;
+	padding: 5px;
+	background-color: turquoise;
+}
+
+
+.nav_cells{
+	padding: 10px;
+	border: 0px solid aqua;
+	border-radius:20px;
+	background-color: aqua;
+}
+.image_header{
+	width:100%;
+	position: fixed;
+	height: 300px;
+}
+.logo{
+	position: fixed;
+	border-radius: 10000px;
+	margin-top: 250px;
+	margin-right:50%; 
+	margin-left:35%;
+}
+
+.my_photo{
+	margin-top: 575px;
+	margin-right:50%; 
+	margin-left:40%;
+	width: 200px;
+	height: 350px;
+}
