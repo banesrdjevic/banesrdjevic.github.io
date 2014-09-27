@@ -3,14 +3,16 @@ html{
 }
 .top{
 	position:fixed;
-}
-
-.nav_bar{
+	text-align: center;
+}	
+.logo{
 	position:fixed;
-	margin-top: 475px;
 	margin-right:50%; 
-	margin-left:32%;
-	
+	margin-left:35%;
+	margin-top: 175px;
+
+}
+#nav_bar{
 	border-radius: 20px;
 	padding: 5px;
 	background-color: turquoise;
@@ -24,16 +26,15 @@ html{
 	background-color: aqua;
 }
 .image_header{
-	width:100%;
 	position: fixed;
 	height: 300px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
-.logo{
-	position: fixed;
-	border-radius: 10000px;
-	margin-top: 250px;
-	margin-right:50%; 
-	margin-left:35%;
+#logo{
+	border-radius: 100%
+
 }
 
 .my_photo{
@@ -43,3 +44,27 @@ html{
 	width: 200px;
 	height: 350px;
 }
+
+
+#github{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+#linkedin{
+	height: 100px;
+	width: 100px;
+	border-radius: 5%;
+}
+#twitter{
+	height: 68px;
+	width: 68px;
+	border-radius: 10%;
+
+}
+#blog{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+}
+
