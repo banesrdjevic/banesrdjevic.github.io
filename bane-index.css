@@ -7,17 +7,37 @@ html{
 }	
 .logo{
 	position:fixed;
-	margin-right:50%; 
-	margin-left:35%;
-	margin-top: 175px;
+	margin-right:auto; 
+	margin-left:30%;
+	margin-top: 225px;
 
+
+}
+
+.projects{
+	padding-top: 500px;
+}
+
+#my_photo{
+	border-radius: 25%;
+	float:left;
+	height: 300px;
+	width: 300px;
+	margin-top: 500px;
+}
+.photo{
+	margin-top: 500px;
+}
+
+#home_paragraph{
+	width:90%;
+	margin-top: 500px;
 }
 #nav_bar{
 	border-radius: 20px;
 	padding: 5px;
 	background-color: turquoise;
 }
-
 
 .nav_cells{
 	padding: 10px;
@@ -47,8 +67,8 @@ html{
 
 
 #github{
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 	border-radius: 100%;
 }
 #linkedin{
@@ -63,8 +83,8 @@ html{
 
 }
 #blog{
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 	border-radius: 100%;
 }
 
