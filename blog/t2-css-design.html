@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+	</head>
+
+	<body>
+	<img class="gyros" src="http://www.goer.org/images/html/boxbasic.png" />
+	
+
+
+<table>
+		<tr>
+			<td>
+				<h1>Learning about Borders, Padding, and Margins?</h1>
+				<h2>That's a Paddlin'</h2>
+				<h3>Bane Srdjevic<br>Written closer to the deadline than preferable.</h3>
+			</td>
+			<td>
+				<img src="http://www.atypicallyrelevant.com/wp-content/uploads/2011/10/paddlin.jpg" />
+			</td>
+		</tr>
+	</table>
+
+
+
+	<p class = paragraphs>
+		This was something that gave me a lot of trouble when I first started learning about HTML and CSS. I understood the principle behind the box model, as well as the logic behind the DOM, but for some reason I couldn't get the visuals to line up with the lines of code. I wen into the website building assignment with that misunderstanding and it made aligning my elements a real pain in the paddlin-bag, but through sheer head-through-wall strength of stubbornness I figured out what worked, what didn't work, and at least a little bit of the why behind it.<br>
+
+		<br><strong>The Box Model</strong><br><br>
+		If you'll take a look at the picture up top (not the grumpy old man) you'll notice a nicely organized layout of the box model. What is the box model? It's the physical breakdown of the space (almost) all elements take up on any web page--the border, the margin, and the padding. The majority of your garden-variety elements--like divs, tables, spans, and paragraphs--are all constructed using the box model and thereby all have these three components. Understanding what they do and how they interact with your web page.<br>
+
+		<br><i>Margin</i><br>
+		The padding is the first layer working from the outside in is the margin. The margin is essentially the space between the element and the other elements around it, which is why css commands like <font color = "purple"><b>margin-top: 50px</b></font> will shift a whole lot of stuff around your page. This is because you are increasing or decreasing the space between elements, and that means you are affecting the locations of other elements to create or delete this necessary room. Editing margins tends to make things messy, so if you're looking to fine-tune placement then consider changing the padding attribute instead.<br>
+
+		<br><i>Borders</i><br>
+		Borders are much more straight-forward than margins, but that's because they serve different purposes. Margins are used to move elements around the web page while borders are mostly used for decoration and making things stick out. Almost all elements have borders, but they're invisible until you make them otherwise. by going into CSS and assigning <font color = "red"><b>border-width</b></font>, <font color = "blue"><b>border-color</b></font>, and <font color = "orange"><b>border-style</b></font> attributes to an element you make the border visible and can thereby play around with the style. There are a lot of built-in border options for CSS, but always be on the look out for more.<br>
+
+		<br><i>Padding</i><br>
+		I like to think of padding as the fine-tuner as far as positioning elements goes. While margins change the space outside of the border around, padding changes the space inside the border. What does this mean: simply put, by changin padding you are not moving the element around the page but rather the content within the element. Every element takes up a certain amount of space, and the content of an element takes a up a certain amount of space within that element. Padding determines where the content ends up within the element, which is what you'll want to use when moving content from the top right corner of a table cell to the top left corner of a table cell. In my opinion, padding should always be used when it can and margins should only be used when padding isn't available. Just like with margins and borders, padding can be changed by changing the <font color = "green"><b>padding</b></font> attribute in CSS.<br>
+
+		<br><b><i><u>One Final Note</u></i></b><br>
+		Keep in mind that margins, borders, and padding all have smaller parts within themselves. While the image of the box model at the top of the blog breaks down the essential components of element positioning, each of these have four smaller parts within themselves: top, bottom, left, and right. When editing these attributes in CSS, you can choose to alter specific sides of each positioning attribute by adding -top, -bottom, -left, or -right to the name, like so: <font color = "aqua"><b>border-left</b></font>, <font color = "burgundy"><b>padding-top</b></font>, <font color = "teal"><b>margin-right</b></font>.
+	</p>
+
+
+	</body>
+
+
+
+
+
+
+</html>
