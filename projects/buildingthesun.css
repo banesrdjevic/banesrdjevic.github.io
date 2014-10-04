@@ -242,21 +242,21 @@ body {background: #66ffcc; }
  animation-direction:alternate;
 }
 /*This is where the amimations start*/
-keyframes bounce{
+@keyframes bounce{
   from{top:-50px;}
   to{top:50px;}
 }
-keyframes rotate_sun{
+@keyframes rotate_sun{
   from transform: rotate (0deg);}
   to transform: rotate(-360deg);}
 }
-keyframes rotate_moon{
+@keyframes rotate_moon{
   from transform: rotate (0deg); color: #991f5C}
   
   to transform: rotate(360deg); background-color: #52cc52;}
 }
  
-keyframes shape_shift_left_1{
+@keyframes shape_shift_left_1{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -270,7 +270,7 @@ keyframes shape_shift_left_1{
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
 }
-keyframes shape_shift_left_2{
+@keyframes shape_shift_left_2{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -283,7 +283,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_3{
+}@keyframes shape_shift_left_3{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -296,7 +296,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_4{
+}@keyframes shape_shift_left_4{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -309,7 +309,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_5{
+}@keyframes shape_shift_left_5{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -322,7 +322,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_6{
+}@keyframes shape_shift_left_6{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -337,7 +337,7 @@ keyframes shape_shift_left_2{
   border-bottom: 30px solid transparent;}
 }
  
-keyframes shape_shift_right_1{
+@keyframes shape_shift_right_1{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -352,7 +352,7 @@ keyframes shape_shift_right_1{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_2{
+@keyframes shape_shift_right_2{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -367,7 +367,7 @@ keyframes shape_shift_right_2{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_3{
+@keyframes shape_shift_right_3{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -382,7 +382,7 @@ keyframes shape_shift_right_3{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_4{
+@keyframes shape_shift_right_4{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -397,7 +397,7 @@ keyframes shape_shift_right_4{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_5{
+@keyframes shape_shift_right_5{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -412,7 +412,7 @@ keyframes shape_shift_right_5{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_6{
+@keyframes shape_shift_right_6{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
