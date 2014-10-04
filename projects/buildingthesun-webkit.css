@@ -40,7 +40,7 @@ body {background: #66ffcc; }
   right: 0;
   
   margin: auto;
- animation: rotate_sun 10s infinite linear; 
+  -webkit-animation: rotate_sun 10s infinite linear; 
 }
 
 .revolve{
@@ -73,7 +73,7 @@ body {background: #66ffcc; }
   right: 0;
   
   margin: auto;
- animation: rotate_sun 6s infinite linear;
+  -webkit-animation: rotate_sun 6s infinite linear;
  
 }
  
@@ -91,11 +91,11 @@ body {background: #66ffcc; }
   
   margin: auto;
   
- animation-iteration-count:infinite;
- animation-timing-function: linear;
- animation-name: rotate_moon;
- animation-duration:6s;
- animation-direction: alternate;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: rotate_moon;
+  -webkit-animation-duration:6s;
+  -webkit-animation-direction: alternate;
 }
 /*the next segment controls the left moving rings*/
  .left_circle_rays{
@@ -112,60 +112,60 @@ body {background: #66ffcc; }
   left: -92px;
   top: 65px;
   
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_1;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_1;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 #left_circle_2{
   left: -26px;
   top: -46px;
- transform:rotate(60deg);  
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_2;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform:rotate(60deg);  
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_2;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 #left_circle_3{
   left: 98px;
   top: -46px;
- transform:rotate(120deg);  
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_3;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform:rotate(120deg);  
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_3;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 #left_circle_4{
   left: 163px;
   top: 65px;
- transform:rotate(180deg);  
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_4;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform:rotate(180deg);  
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_4;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 #left_circle_5{
   left: 98px;
   top: 176px;
- transform:rotate(240deg);  
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_5;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform:rotate(240deg);  
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_5;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 #left_circle_6{
   left: -28px;
   top: 176px;
- transform:rotate(300deg);  
- animation-iteration-count:infinite;
- animation-name: shape_shift_left_6;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform:rotate(300deg);  
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_left_6;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
  
 }
 /*These next howevver many lines control the right moving ring*/
@@ -183,80 +183,80 @@ body {background: #66ffcc; }
 #right_circle_1{
   right: 54px;
   top: -57px;
- transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
   
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_1;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_1;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
  
 #right_circle_2{
   right: -34px;
   top: -8px;
- transform: rotate(150deg);
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_2;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform: rotate(150deg);
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_2;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
  
 #right_circle_3{
   right: -35px;
   top: 99px;
- transform: rotate(210deg);
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_3;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform: rotate(210deg);
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_3;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
  
 #right_circle_4{
   right: 54px;
   top: 150px;
- transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
   
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_4;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_4;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
  
 #right_circle_5{
   right: 144px;
   top: 98px;
- transform: rotate(330deg);
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_5;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform: rotate(330deg);
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_5;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
  
 #right_circle_6{
   right: 144px;
   top: -8px;
- transform: rotate(30deg);
- animation-iteration-count:infinite;
- animation-name: shape_shift_right_6;
- animation-duration:1s;
- animation-direction:alternate;
+  -webkit-transform: rotate(30deg);
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: shape_shift_right_6;
+  -webkit-animation-duration:1s;
+  -webkit-animation-direction:alternate;
 }
 /*This is where the amimations start*/
-keyframes bounce{
+@-webkit-keyframes bounce{
   from{top:-50px;}
   to{top:50px;}
 }
-keyframes rotate_sun{
-  from transform: rotate (0deg);}
-  to transform: rotate(-360deg);}
+@-webkit-keyframes rotate_sun{
+  from {-webkit-transform: rotate (0deg);}
+  to {-webkit-transform: rotate(-360deg);}
 }
-keyframes rotate_moon{
-  from transform: rotate (0deg); color: #991f5C}
+@-webkit-keyframes rotate_moon{
+  from {-webkit-transform: rotate (0deg); color: #991f5C}
   
-  to transform: rotate(360deg); background-color: #52cc52;}
+  to {-webkit-transform: rotate(360deg); background-color: #52cc52;}
 }
  
-keyframes shape_shift_left_1{
+@-webkit-keyframes shape_shift_left_1{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -270,7 +270,7 @@ keyframes shape_shift_left_1{
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
 }
-keyframes shape_shift_left_2{
+@-webkit-keyframes shape_shift_left_2{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -283,7 +283,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_3{
+}@-webkit-keyframes shape_shift_left_3{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -296,7 +296,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_4{
+}@-webkit-keyframes shape_shift_left_4{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -309,7 +309,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_5{
+}@-webkit-keyframes shape_shift_left_5{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -322,7 +322,7 @@ keyframes shape_shift_left_2{
   border-top:30px solid transparent;
   border-right: 40px solid #FFAD33;
   border-bottom: 30px solid transparent;}
-}keyframes shape_shift_left_6{
+}@-webkit-keyframes shape_shift_left_6{
   from {  width:0;
   height:0;
   border-top: 10px solid transparent;
@@ -337,7 +337,7 @@ keyframes shape_shift_left_2{
   border-bottom: 30px solid transparent;}
 }
  
-keyframes shape_shift_right_1{
+@-webkit-keyframes shape_shift_right_1{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -352,7 +352,7 @@ keyframes shape_shift_right_1{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_2{
+@-webkit-keyframes shape_shift_right_2{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -367,7 +367,7 @@ keyframes shape_shift_right_2{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_3{
+@-webkit-keyframes shape_shift_right_3{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -382,7 +382,7 @@ keyframes shape_shift_right_3{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_4{
+@-webkit-keyframes shape_shift_right_4{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -397,7 +397,7 @@ keyframes shape_shift_right_4{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_5{
+@-webkit-keyframes shape_shift_right_5{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
@@ -412,7 +412,7 @@ keyframes shape_shift_right_5{
   border-bottom: 10px solid transparent;}
 }
  
-keyframes shape_shift_right_6{
+@-webkit-keyframes shape_shift_right_6{
   from{width:0;
   height:0;
   border-top:30px solid transparent;
