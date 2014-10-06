@@ -1,4 +1,5 @@
-body {background: #66ffcc; }
+body {background: #66ffcc;
+}
 /*These measures helped me align the jumping divs, but ended up looking much cooler as a part of the actual animation
 .measure{  width: 402px;
   height: 402px; 
