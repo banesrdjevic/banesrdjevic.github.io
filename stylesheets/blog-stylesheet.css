@@ -8,7 +8,11 @@ html{background-color: white;}
 table{
 	width: 600px;
 }
-
+body{
+	position:relative;
+	margin-left: 33%;
+	margin-right: 33%;
+}
 code{
   font-family: Courier;
   background-color: #33CC33;
