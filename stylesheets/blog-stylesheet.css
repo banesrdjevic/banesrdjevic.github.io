@@ -9,7 +9,13 @@ table{
 	width: 600px;
 }
 
-
+code{
+  font-family: Courier;
+  background-color: #33CC33;
+  padding: 0px 8px 1px 8px;
+  margin: 1px;
+  color: white;
+}
 
 
 .paragraphs{

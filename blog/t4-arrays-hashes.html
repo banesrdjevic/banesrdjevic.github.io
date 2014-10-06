@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HASH!</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+	</head>
+
+	<body>
+		<img class="gyros" src="http://assets.nydailynews.com/polopoly_fs/1.1543092!/img/httpImage/image.jpg_gen/derivatives/article_970/hashbrowns11n-4-web.jpg" />
+	
+
+
+		<table>
+			<tr>
+				<td>
+					<h1>Would You Like Hash With That?</h1>
+					<h2>Bane Srdjevic</h2>
+					<h3>X/V/MMXIV</h3>
+				</td>
+				<td>
+					<img src='https://d3j5vwomefv46c.cloudfront.net/photos/large/646178427.jpg?1346192049' />
+					<!-- you either get it or you don't -->
+				</td>
+			</tr>
+		</table>
+
+
+
+		<p class = paragraphs>
+Good logic coding revolves almost entirely around organizing and manipulating data, and two of the most useful tools you'll be using in your pursuit of creating the perfect program are the hash and the array. These are two very common constructs that can be used to organize, store, and sort data, not to mention allow for some pretty neat manipulation. But that's just talk, and you need something you can really sink your teeth into. Fine. Let's get down to hash tacks then.<br>
+
+<br><b>Arrays</b><br>
+<br>I like to think of arrays as a shelf. You line up everything you own on a shelf and you can organize it however you'd like, and you can put whatever you want on that shelf! Books, pots, pans, integers, bookends, figurines, other shelves--anything! Breaking metaphor, an array is a space that can be segmented an infinite amount of times and contain absolutely anything you can think of in it, even other arrays! Strings, tuples, integers, floats, methods, classes, hashes--anything! 
+This is how you make one:<br>
+
+<br><code>array = [ ]</code>   ------  (this is just an empty array, but note the brackets! Parenthesis are tuples and curly braces are hashes)<br>
+
+<br><code>array=[(1,2),1,'blue',[ (1,2),1,'blue']]</code>   ------- (this one is full of all kinds of neat things!)<br>
+
+<br>Then this is how you call on a specific entry in the array (remember that the first item has a place value of 0):<br>
+
+<br><code>array[1]</code> ------ (this returns the second item in the array, which would be 1 if we continue using the stored information from above)<br>
+
+<br><code>array[3]</code> ------ (this will return [ (1,2),1,'blue'])<br>
+
+<br>But hold up! Calling array[3] brings up a whole new array, so what if I want to just call a single element from that array and not the entire array?! Luckily, this is one of the few times in coding syntax where common sense actually had a say in how things are done.<br>
+
+<br>To call a single entry in an array that's stored in an array simply type:<br>
+
+<br><code>array[3][0]</code> -------(this will return the first entry in the entry stored at position [3] in array: (1,2))<br>
+
+<br><code>array[0][1]</code> -------(this will return the second entry in the entry stored at position [0] in array: 2)<br>
+
+<br>But wait, the entry located in array[0] is a tuple and not an array! If you noticed this then you're an attentive cookie. You can use this trick on tuples even! But that's all I'm telling you, so go punch some code into IRB if you want to see what else it works on.<br>
+
+<br>Last trick:<br>
+
+<br>If you want to call an entry in an array from the OTHER direction, meaning the last entry first, simply go negative:<br>
+
+<br><code>array[-1]</code> -------- (this will return the last entry in the array:  [ (1,2),1,'blue']. It works the same as array[3])<br>
+
+<br><code>array[-3]</code> -------- (this will return the third entry from the back: 1)</code><br>
+
+<br><b>Hashes</b><br>
+<br>Hashes, on the other hand, are a little more specific than arrays. Essentially, without getting into how they interact with methods, they are the same things as arrays except for how you store data into them and how you call data from them.<br>
+
+<br>To create a hash:<br>
+
+<br><code>hash{}</code> --------- (creates an empty hash)<br>
+
+<br>But now you have to store information into the hash. This is what that would look like:<br>
+
+<br><code>hash{ 'a'=>5,<br> 5=>13,<br> :steel => 'iron and wine',<br> 'hints'=>{:steel=>13, 'b'=> {'a'=>5, 'b'=> 6, 'c'=>'ab'}, 'c'=>'ab'},<br> }</code><br>
+
+<br>Looks a little funky, right? But it's pretty simple. Each entry in a hash has two components: the key and the value. The value is the data being stored, and the key is the "address" it's being stored at. Observe:<br>
+
+<br><code>hash['a']</code> ------- (This will return the value 5, because that is the value stored at 'a')<br>
+
+<br>Important to note here is that you are not defining 'a' as 5, you are simply saying that there is a person named 5 who is living at house 'a'. That 5 can be replaced with anything you want, even other hashes! Values can be anything, but keys cannot. Keys have to be either strings, integers, floats, or symbols. They cannot be tuples or hashes or arrays.<br>
+
+<br>What does this mean? It means that hashes are a much more specific way to store and retrieve data than arrays are. Arrays make it easier to manipulate data, but it can get sometimes lost in the mish mash if you're not careful. That's why it's better to manipulate data in an array and then store it in a hash afterwards.<br>
+
+<br>With that suggestion, I'll leave you with two thoughts: how would you go through an array to turn it into a hash using nothing but code, and how would you get a specific value from a hash that's stored as a value in another hash? Bonus question: how would you call a value in a hash that's stored in an array?<br>
+
+<br>Enjoy. Oh, and cipher something, too. Hashes are fun for that nonsense.<br>
+
+<br>Water Tribe, Out<br>
+		</p>
+
+
+	</body>
+</html>
