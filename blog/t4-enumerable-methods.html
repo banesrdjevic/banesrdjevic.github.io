@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bikes Rides</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+	</head>
+
+	<body>
+		<img class="gyros" src="http://upload.wikimedia.org/wikipedia/commons/4/41/Left_side_of_Flying_Pigeon.jpg" />
+	
+
+
+		<table>
+			<tr>
+				<td>
+					<h1>Bike Rides on the Beach</h1>
+					<h2>B.D. Srdjevic</h2>
+					<h3>10/11/2014-Waxing Gibbous</h3>
+				</td>
+				<td>
+					<img src="http://www.nerdist.com/wp-content/uploads/2014/10/jeff-goldblum-ge-hed-2014-322x268.jpg" />
+				</td>
+			</tr>
+		</table>
+
+
+
+		<p class = paragraphs><br>Let's take a look at Enumerable#cycle today. Cycle is a method you can call on any enumerable (obviously), and as you might have guessed it cycles through the elements of the enumerable.<br>
+<br>Here's the syntax:<br>
+<br><code>Enumerable.cycle(number){|element in the enumerator| code}</code><br>
+<br>What this does is cycle through each part of the enumerator as many times as indicated by "number" and performs the specified code on each element. That means:<br>
+<br><code>array.cycle(6){|x| puts x}</code><br>
+<br>will puts each element of the array in order for a total of six times. Simple enough, but there are two things that you absolutely need to watch out for.<br>
+<br><b>THINGS TO WATCH OUT FOR</b><br>
+<br>First:<br>
+<br>If you do not include (number), like so:<br>
+<br><code>array.cycle{|x| puts x}</code><br>
+<br>you will create an infinite loop and break your code! Not adding (number) tells the program to cycle through the array an infinite amount of times. Do not do this unless you have a reason for it!<br>
+<br>Second:<br>
+<br>Cycle is a non-destructive method, which means that it will never alter the value of the enumerable permanently. It alters it temporarily each time it iterates over the element, but it reverts as soon as the iteration switches to a new element. That's why:<br>
+<br><code>array = [1,2,3]</code><br>
+<br><code>array.cycle(3){|x| x=x*x}</code><br>
+<br><code>print Array</code><br>
+<br>will output [1,2,3] instead of [1, 256, 6561] . It goes through the array, but it doesn't change it.<br>
+<br>But what is this good for, then?<br>
+<br><b>What's the Point?</b><br>
+<br>Well, while cycle doesn't change the enumerable it's being used on, it can be used on one enumerable to change a whole bunch of others! We could do this:<br>
+<br><code>array=[1,2,3]</code><br>
+<br><code>array_2=[]</code><br>
+<br><code>array.cycle(1){|x| array_2<<(x*x)} </code><br>
+<br>and there you go! It's a very simple usage, but it can be incredibly useful in a pinch or two. <br>
+<br>So in closing, make sure you don't go to infinity and beyond, realize that no matter how hard you try you won't have the power to change the things you want to control most, and use this method to get what you want from others. Simple and Clean, like Utada Hikaru.<br>
+<br>Later, Space Cowboy</br>
+
+
+		</p>
+
+
+	</body>
+</html>
