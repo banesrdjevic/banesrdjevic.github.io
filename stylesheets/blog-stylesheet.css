@@ -19,9 +19,15 @@ code{
   padding: 0px 8px 1px 8px;
   margin: 1px;
   color: white;
+  width: 600px;
 }
 
 
 .paragraphs{
 	width: 600px;
+}
+
+.paragraph_image{
+	width: 600px;
+	height: 600px;
 }
