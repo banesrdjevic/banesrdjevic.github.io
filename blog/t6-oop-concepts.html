@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PROC IT!</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+	</head>
+
+	<body>
+		<img class="gyros" src="http://www.thegamingvault.com/uploads/2012/06/half-life-banner-logo.jpg" />
+	
+
+
+		<table>
+			<tr>
+				<td>
+					<h1>Procs, Blocs, and Lambdas</h1>
+					<h2>Bane Srdjevic</h2>
+					<h3>10/26/2014</h3>
+				</td>
+				<td>
+					<img src="http://4.bp.blogspot.com/_EajLcdxq6lA/TPQnKA9E6vI/AAAAAAAAAfg/DYEe6mil7v8/s1600/proc.jpg" />
+				</td>
+			</tr>
+		</table>
+
+
+
+		<p class = paragraphs><br>We've had a go at classes and methods so far, but now let's take a look at Procs, Lambdas, and Blocs. Blocs should already be familiar to you, and that's great news because Procs and Lambdas build off of Blocs, which will make learning all of this much simpler.<br>
+<br>Let's start with a refresher course on Blocs:<br>
+<br><code>5.times{puts "Alabama Man"}</code><br>
+<br><code>{puts "Alabama Man"}</code> is the Bloc here. It is an unsaved piece of code that serves to work its function and then disappear. Blocs are used with a large number of methods that are built into Ruby, but when paired with </code>yield</code> it does something really special. Take a look at this:<br>
+<br><code>def test_method(name)</code>
+<br><code>    print "#{name} is the best"</code>
+<br><code>yield</code>
+<br><code>end</code><br>
+<br>What's that <code>yield</code> doing in there? Well, it's waiting for you to do something of course! And that something is passing a block as a special argument to test_method. By using the following call:<br>
+<br><code>test_method("Nick"){print " but Sohcahtoa is better."}</code><br>
+<br>test_method will return something you might not expect, but I'm sure you can guess what it will be:<br>
+<br><code>test_method("Nick"){print " but Sohcahtoa is better."}</code><br> --> "Nick is the best but Sohcahtoa is better."<br>
+<br><code>Yield</code> requires the special Bloc and will raise an error if it isn't given one.<br> 
+<br>Now that we have our own personal back-handed-compliment generator, let's take a look at Procs. Procs are essentially Blocs that have been stored for later use. This is useful in the same way that variables are useful, so you can actually think of Procs as variables that store strings of code instead of data. Here's the syntax:<br>
+proc_name = Proc.new{Bloc of code}
+<br>Here are a few examples:<br>
+<br><code>double = Proc.new{|x| x*2}</code>
+<br><code>even_check = Proc.new{|x| x%2==0}</code>
+<br><code>warning_sign=Proc.new{print "This is a warning sign!"}</code><br>
+<br>And here are those examples in action:<br>
+<br><code>numbers = [1,2,3,4,5]</code>
+<br><code>p numbers.select(&even_check)</code>
+<br><code>p numbers.map(&double)</code>
+<br><code>p numbers.each(&warning_sign)</code><br>
+<br>Take note of the syntax here, and pay special attention to the <code>&</code> being used. Oh, and don't even think about using curly braces -- parenthesis only when calling a Proc.<br>
+<br>Lambdas are the last topic of discussion, but luckily they're a lot like Procs. In fact, a Lambda is technically a special Proc class object.  It's a Proc that behaves a bit differently, and differentiating between which one to use can get a little tricky.<br> 
+<br>Here's the syntax:<br>
+<br><code>a_lambda_example = lambda {puts "this is a lambda"}</code><br>
+<br>Here we see that the keyword "lambda" has replaced "Proc.new".  <code>Using them is the same syntax as a Proc</code>, but they behave a little bit differently.<br>
+<br><b>The Differences</b><br>
+<br>There are two major differences:<br>
+<br><i>Checking arguments passed</i>
+<ol>
+<li>Lambdas are specific about how many arguments are passed them and will return an error</li>
+<li>Procs are not and will work as best as they can without them, replacing missing values with nil and ignoring extra arguments</li>
+</ol>
+<i>Returning Lambdas and Procs</i>
+<ol>
+<li>Lambdas, when they return a value in a method, will go back to the method and defer priority to it, meaning that the method will continue working until it finishes. This sometimes means that the lambda won't even be returned to as the result because it will be overridden by the rest  of the method</li>
+<li>A Proc that returns will end the method immediately. Any code after the Proc is called will not be executed an the code will end with whatever the Proc told it to do.</li>
+</ol>
+<br>So there you go!
+</p>
+
+
+	</body>
+</html>
