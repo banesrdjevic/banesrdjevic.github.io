@@ -1,0 +1,51 @@
+.greeting{
+    width: 90%;
+    border: 2px solid black;
+    margin: 2% 5% 2% 5%;
+    text-align: center;
+    padding: 3% 0 3% 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    background-color: teal;
+}
+
+.what_is{
+    width: 90%;
+    border: 2px solid black;
+    margin: 0 5% 2% 5%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: teal;
+}
+
+.methods{
+	width: 90%;
+	border: 2px solid black;
+	margin: 2% 5% 2% 5%;
+}
+
+method{
+	color: white;
+	background-color: green;
+	font-family: verdana;
+}
+
+#common_uses{
+  width: 90%;
+  border: 2px solid black;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  padding-top: 3%;
+  background-color: teal;
+  font-size: 22px;
+  font-family: 
+}
+
+p{
+	color: white;
+	background-color: green;
+	font-family: verdana;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cheatsheet.css">
+        <title>Ruby Enumerable Cheatsheet</title>
+    </head>
+    <body>
+        <div class = 'greeting'>Ruby Enumerables Cheatsheet</div>
+        <div class = 'what_is'>Enumberable methods are tools used to collect, traverse, sort through, 
+        and manipulate data stored in various data structures. The two most common enumerable data 
+        structures are arrays and hashes. </div>
+        <div class = 'methods'>
+            <ul id = 'method_names'>
+                <li><method>collect:</method> Runs a block on each item in an enumerable and returns 
+                it in a new array.</li><br>
+                <li><method>count:</method> Returns the number of items in an enumerable, or the number of items that return 'true' for 
+                an optionally passed block.</li><br>
+                <li><method>cycle:</method> Calls a block for each element n times or forever if none or nil is given.</li><br>
+                <li><method>each_with_index:</method> Calls a block with two arguments -- the item and its index -- for each item in enumerable.</li><br>
+                <li><method>include?:</method> Returns a boolean value 'true' if any member of enumerable == the object passed.</li><br>
+                <li><method>inject:</method> Combines all elements of an enumerable by applying a binary operation that is specified by a 
+                block or a symbol that names a method or operator.</li><br>
+                <li><method>map:</method> Returns a new array with the results of running block once for every element in the enumerable.</li><br>
+                <li><method>reduce:</method> Combines all elements of an enumberable by applying a binary operation, specified by a block 
+                or a symbol that names a method or operator.</li><br>
+                <li><method>select:</method> Returns an array containing all elements of an enumberable for which the given block returns 
+                a true value.</li><br>
+                <li><method>sort:</method> Returns an array containing the items in an enumerable sorted, either by value or otherwise if 
+                a specific block is given.</li>
+            </ul>                
+        </div>
+        <div id = 'common_uses'>
+            <p>collect { |obj| block } --> array</p>
+            <p>count --> int <br>
+                count(item) --> int <br>
+                count { |obj| block } --> int</p>
+            <p>cycle(n=nil) { |obj| block } --> nil <br>
+                cycle(n=nil) --> an_enumerator</p>
+            <p>each_with_index(*args) { |obj, i| block } --> enum <br>
+                each_with_index(*args) --> an_enumerator</p>
+            <p>include?(obj) --> true or false</p>
+            <p>inject(initial, sym) --> obj <br>
+                inject(sym) --> obj <br>
+                inject(initial) { |memo, obj| block } --> obj <br>
+                inject { |memo, obj| block } --> obj
+            </p>
+            <p>map { |obj| block } --> array<br>
+               map --> an_enumerator
+            </p>
+            <p>reduce(initial, sym) --> obj<br>
+               reduce(sym) --> obj<br>
+               reduce(initial) { |memo, obj| block } --> obj<br>
+               reduce { |memo, obj| block } --> obj</p>
+            <p>select { |obj| block } --> array<br>
+               select --> an_enumerator</p>
+            <p>sort --> array<br>
+               sort { |a, b| block } --> array
+            </p>
+            
+            
+        </div>
+    </body>
+</html>
