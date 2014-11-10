@@ -12,6 +12,7 @@ body{
 	position:relative;
 	margin-left: 33%;
 	margin-right: 33%;
+	width: 600px;
 }
 code{
   font-family: Courier;
@@ -30,4 +31,8 @@ code{
 .paragraph_image{
 	width: 600px;
 	height: 600px;
+}
+#small_picture{
+	width: 400px;
+	height: 400px;
 }
