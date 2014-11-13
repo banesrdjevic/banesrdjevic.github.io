@@ -1,17 +1,21 @@
 html{
 	background: white;
 }
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
 .top{
-	position:fixed;
-	text-align: center;
+	width: 80px;
 }	
 .logo{
-	position:fixed;
-	margin-right:auto; 
-	margin-left:30%;
-	margin-top: 225px;
-
-
+	margin: auto;
 }
 
 .projects{
@@ -23,16 +27,13 @@ html{
 	float:left;
 	height: 300px;
 	width: 300px;
-	margin-top: 500px;
-}
-.photo{
-	margin-top: 500px;
+/*	margin-top: 500px;*/
 }
 
-#home_paragraph{
+
+/*#home_paragraph{
 	width:90%;
-	margin-top: 500px;
-}
+}*/
 #nav_bar{
 	border-radius: 20px;
 	padding: 5px;
@@ -44,13 +45,11 @@ html{
 	border: 0px solid aqua;
 	border-radius:20px;
 	background-color: aqua;
+	font-family: Verdana;
 }
 .image_header{
-	position: fixed;
 	height: 300px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10%;
 }
 #logo{
 	border-radius: 100%
