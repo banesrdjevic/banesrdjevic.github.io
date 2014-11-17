@@ -3,6 +3,7 @@ html{background-color: white;}
 .gyros{
 	width: 600px;
 	height: 250px;
+	border-radius: 5%;
 }
 
 table{
@@ -13,6 +14,11 @@ body{
 	margin-left: 33%;
 	margin-right: 33%;
 	width: 600px;
+	border: 5px dashed purple;
+	border-radius: 2%;
+	padding: 4px 10px 0 10px;
+
+	
 }
 code{
   font-family: Courier;
@@ -31,8 +37,15 @@ code{
 .paragraph_image{
 	width: 600px;
 	height: 600px;
+
 }
 #small_picture{
 	width: 400px;
 	height: 400px;
+}
+
+p{
+	font-family: arial;
+	font-size: 18px;
+	padding: 4px 0 4px 4px;
 }
